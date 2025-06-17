@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META DESCRIPTION PARA SEO -->
+    <meta name="description" content="Portfólio de Caique Brito, Desenvolvedor Web especialista na criação de sites e aplicações modernas, rápidas e responsivas.">
+    
+    <title>Caique Brito - Desenvolvedor Web</title>
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="Gemini_Generated_Image_7ay10b7ay10b7ay1-removebg-preview.png">
+    <link rel="apple-touch-icon" href="Gemini_Generated_Image_7ay10b7ay10b7ay1-removebg-preview.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (para ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- O CÓDIGO CSS IRIA AQUI, NUMA TAG <style> OU NUM LINK EXTERNO -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="#hero" class="logo">Caique Brito<span>.</span></a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato" class="btn btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div> <div class="bar"></div> <div class="bar"></div>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav">
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Olá, eu sou <span>Caique Brito</span></h1>
+                    <p>Desenvolvedor Web especialista em criar sites modernos, rápidos e responsivos que ajudam a sua empresa a crescer.</p>
+                    <a href="#contato" class="btn">Entre em Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="sobre-img fade-in-up">
+                    <img src="https://placehold.co/400x400/00bcd4/ffffff?text=Sua+Foto+Aqui" alt="Um retrato profissional de Caique Brito, o desenvolvedor do site.">
+                </div>
+                <div class="sobre-texto fade-in-up">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Sobre Mim</h2>
+                    <p>Sou um desenvolvedor web apaixonado por tecnologia e design. Meu objetivo é transformar ideias em realidade digital, criando experiências de usuário incríveis e funcionais.</p>
+                    <p>Com experiência em diversas tecnologias, estou sempre aprendendo e me atualizando para oferecer as melhores soluções para os meus clientes.</p>
+                    <h3>Minhas Habilidades:</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 & CSS3</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>SEO</li><li>UI/UX Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" style="background-color: var(--cor-fundo-secundaria);">
+            <div class="container">
+                <h2 class="section-title">O Que Eu Faço</h2>
+                <div class="servicos-grid">
+                    <div class="servico-card fade-in-up">
+                        <i class="fas fa-laptop-code icon"></i><h3>Criação de Sites</h3>
+                        <p>Desenvolvimento de sites institucionais, landing pages e blogs, responsivos e otimizados.</p>
+                    </div>
+                    <div class="servico-card fade-in-up">
+                        <i class="fas fa-mobile-alt icon"></i><h3>Sites Responsivos</h3>
+                        <p>Garanto que seu site funcione perfeitamente em todos os dispositivos, de desktops a celulares.</p>
+                    </div>
+                    <div class="servico-card fade-in-up">
+                        <i class="fas fa-chart-line icon"></i><h3>Otimização SEO</h3>
+                        <p>Aplico as melhores práticas de SEO para que seu site tenha um bom posicionamento no Google.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Meus Projetos</h2>
+                <div class="portfolio-grid">
+                    <article class="portfolio-item fade-in-up">
+                        <img src="https://placehold.co/600x400/1e1e1e/ffffff?text=Projeto+1" alt="Imagem da página inicial do Projeto 1">
+                        <div class="portfolio-info">
+                            <h3>Nome do Projeto 1</h3><p>Landing page para uma startup de tecnologia. Foco em UI/UX e conversão.</p>
+                            <a href="#" class="btn-secundario" target="_blank" rel="noopener noreferrer">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item fade-in-up">
+                        <img src="https://placehold.co/600x400/333333/ffffff?text=Projeto+2" alt="Imagem da página de produto do Projeto 2">
+                        <div class="portfolio-info">
+                            <h3>Nome do Projeto 2</h3><p>E-commerce para uma loja de roupas local, desenvolvido com as tecnologias X e Y.</p>
+                            <a href="#" class="btn-secundario" target="_blank" rel="noopener noreferrer">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item fade-in-up">
+                        <img src="https://placehold.co/600x400/555555/ffffff?text=Projeto+3" alt="Imagem da secção de contacto do Projeto 3">
+                        <div class="portfolio-info">
+                           <h3>Nome do Projeto 3</h3><p>Site institucional para um escritório de advocacia, com design sóbrio e profissional.</p>
+                            <a href="#" class="btn-secundario" target="_blank" rel="noopener noreferrer">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section id="depoimentos" style="background-color: var(--cor-fundo-secundaria);">
+            <div class="container">
+                <h2 class="section-title">O Que Dizem os Clientes</h2>
+                <div class="depoimentos-grid">
+                    <div class="depoimento-card fade-in-up">
+                        <i class="fas fa-quote-left icon-quote"></i>
+                        <p>"Trabalhar com o Caique foi uma experiência fantástica. Ele é extremamente profissional, entregou o projeto antes do prazo e o resultado final superou todas as nossas expectativas. Recomendo fortemente!"</p>
+                        <div class="depoimento-autor">
+                            <img src="https://placehold.co/100x100/eeeeee/333333?text=Cliente" alt="Foto do Cliente 1">
+                            <div>
+                                <h4>João Silva</h4>
+                                <span>CEO, Startup Inovadora</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card fade-in-up">
+                        <i class="fas fa-quote-left icon-quote"></i>
+                        <p>"O site que o Caique desenvolveu para o nosso café ficou incrível. O design é lindo e o sistema de reservas é muito fácil de usar. Nossos clientes adoraram a novidade e o nosso fluxo aumentou."</p>
+                         <div class="depoimento-autor">
+                            <img src="https://placehold.co/100x100/dddddd/333333?text=Cliente" alt="Foto do Cliente 2">
+                            <div>
+                                <h4>Maria Oliveira</h4>
+                                <span>Gerente, Café Aconchego</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p style="text-align: center; max-width: 600px; margin: 0 auto 40px auto;">Estou disponível para novos projetos. Preencha o formulário abaixo e entrarei em contato em breve!</p>
+                <!-- IMPORTANTE: Substitua 'YOUR_UNIQUE_ID' pelo seu ID do Formspree -->
+                <form id="contact-form" action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST">
+                    <input type="text" name="name" placeholder="Seu Nome" required class="fade-in-up">
+                    <input type="email" name="email" placeholder="Seu E-mail" required class="fade-in-up">
+                    <textarea name="message" placeholder="Sua Mensagem" required class="fade-in-up"></textarea>
+                    <button type="submit" class="btn fade-in-up">Enviar Mensagem</button>
+                </form>
+                <div id="form-status"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/caique-brito/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                <!-- IMPORTANTE: Substitua '#' pelo URL do seu perfil do GitHub -->
+                <li><a href="https://github.com/seu-usuario-aqui" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p>&copy; <span id="copyright-year"></span> Caique Brito. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- O CÓDIGO JAVASCRIPT IRIA AQUI, NUMA TAG <script> OU NUM LINK EXTERNO -->
+    <!-- <script src="scripts.js"></script> -->
+
+</body>
+</html>
